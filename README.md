@@ -4,8 +4,9 @@
 
 
 <div align="center">
-    <img src=".github\photo.png" alt="...">
+    <img src=".github\photo.png" alt="This is an image of a pig under a book with `docs` in front of it">
 </div> 
+
 
 ***
 
