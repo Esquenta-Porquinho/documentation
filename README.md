@@ -22,6 +22,51 @@
     <img src=".github\images\communication.png" alt="This is an image explain how the project communication works">
 </div>
 
+## How the heating system definitely works?
+
+According to Ferreira (2005) and Pandorfi et al. (2005) the ideal temperatures for piglets according to the weeks of birth:
+
+<table align=center>
+    <tr>
+        <td>Age</td>
+        <td colspan='2'>Temperature (°C)</td>
+    </tr>
+    <tr>
+        <td>&nbsp</td>
+        <td>Min</td>
+        <td>Max</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>30</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>28</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>26</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>24</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>22</td>
+        <td>24</td>
+    </tr>
+</table>
+
+Following the literature, this information is kept in a database. The ESP makes a request to the server indicating the box number, the server calculates the age of the piglets in that box and sends it to ESP. With the parameters, ESP reads the environmental sensors and, if the temperature is below ideal, turns on the heating system.
+
+This process is repeated every minute, with readings being maintained in the database and, when the system heats the room to the ideal temperature, ESP checks and performs the shutdown.
+
 ***
 
 ## :link: Useful links
@@ -38,3 +83,5 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you!
 ***
+
+## References
