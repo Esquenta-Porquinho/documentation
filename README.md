@@ -63,9 +63,9 @@ According to Ferreira (2005) and Pandorfi et al. (2005) the ideal temperatures f
     </tr>
 </table>
 
-Following the literature, this information is kept in a database. The ESP makes a request to the server indicating the box number, the server calculates the age of the piglets in that box and sends it to ESP. With the parameters, ESP reads the environmental sensors and, if the temperature is below ideal, turns on the heating system.
+Following the literature, this information is kept in a database. The ESP makes a request to the server indicating the box number, the server calculates the age of the piglets in that box and sends it to ESP. With given parameters the ESP reads the environmental sensors and if the temperature is below ideal, turns on the heating system.
 
-This process is repeated every minute, with readings being maintained in the database and, when the system heats the room to the ideal temperature, ESP checks and performs the shutdown.
+This process is repeated every minute, with readings being maintained in the database. When the system heats the room to the ideal temperature, the ESP verify and performs the shutdown.
 
 ***
 
@@ -84,4 +84,3 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 Give a ⭐️ if this project helped you!
 ***
 
-## References
