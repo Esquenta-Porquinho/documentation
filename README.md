@@ -11,7 +11,7 @@
 > The image below explain in summary what is the propose of this project and how it will be built.
 
 <div align="center">
-    <img src=".github\images\description.png" alt="This is an image explain the propose and the methodology of the project">
+    <img src=".github\images\description.jpg" alt="This is an image explain the propose and the methodology of the project">
 </div> 
 
 > Besides that, this project is also part of another reasearch. This another research aims to study the collect of data from IoT devices and to build a pattern for develeopmente using this devices. So, is very important too the technical side of this project and doesn't just the animal welfare part. 
